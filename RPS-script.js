@@ -6,18 +6,12 @@ function rock() {
     //computer output
     if(computer == 1) {
         document.getElementById("computer-output").innerHTML = "ROCK";
-    } else if(computer == 2) {
-        document.getElementById("computer-output").innerHTML = "PAPER";
-    } else {
-        document.getElementById("computer-output").innerHTML = "SCISSORS";
-    }
-    
-    //win-lose output
-    if(computer == 1) {
         document.getElementById("win-lose").innerHTML = "TIE";
     } else if(computer == 2) {
+        document.getElementById("computer-output").innerHTML = "PAPER";
         document.getElementById("win-lose").innerHTML = "YOU LOSE";
     } else {
+        document.getElementById("computer-output").innerHTML = "SCISSORS";
         document.getElementById("win-lose").innerHTML = "YOU WIN";
     }
 }
@@ -30,20 +24,18 @@ function paper() {
     //computer output
     if(computer == 1) {
         document.getElementById("computer-output").innerHTML = "ROCK";
+        document.getElementById("win-lose").innerHTML = "YOU WIN";
+             
     } else if(computer == 2) {
         document.getElementById("computer-output").innerHTML = "PAPER";
+        document.getElementById("win-lose").innerHTML = "TIE";
+
     } else {
         document.getElementById("computer-output").innerHTML = "SCISSORS";
+        document.getElementById("win-lose").innerHTML = "YOU LOSE";   
+
     }
     
-    //win-lose output        
-    if(computer == 2) {
-        document.getElementById("win-lose").innerHTML = "TIE";
-    } else if(computer == 3) {
-        document.getElementById("win-lose").innerHTML = "YOU LOSE";
-    } else {
-        document.getElementById("win-lose").innerHTML = "YOU WIN";
-    }
 }
 
 function scissors() {
@@ -54,18 +46,14 @@ function scissors() {
     //computer output
     if(computer == 1) {
         document.getElementById("computer-output").innerHTML = "ROCK";
+        document.getElementById("win-lose").innerHTML = "YOU LOSE";
+ 
     } else if(computer == 2) {
         document.getElementById("computer-output").innerHTML = "PAPER";
+        document.getElementById("win-lose").innerHTML = "YOU WIN";
     } else {
         document.getElementById("computer-output").innerHTML = "SCISSORS";
+        document.getElementById("win-lose").innerHTML = "TIE";
     }
 
-    //win-lose output    
-    if(computer == 3) {
-        document.getElementById("win-lose").innerHTML = "TIE";
-    } else if(computer == 1) {
-        document.getElementById("win-lose").innerHTML = "YOU LOSE";
-    } else {
-        document.getElementById("win-lose").innerHTML = "YOU WIN";
-    }
 }
