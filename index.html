@@ -5,15 +5,24 @@
     <link rel="stylesheet" type="text/css" href="RPS-styles.css">
 </head>
     <body>
-        <input id="rock-button" onclick="rock()" type="button" value="ROCK"></input>
-        <input id="paper-button" onclick="paper()" type="button" value="PAPER"></input>
-        <input id="scissors-button" onclick="scissors()" type="button" value="SCISSORS"></input>
-        <div id="outputs">
-            <h1>YOUR CHOICE:</h1>
-            <p id="player-pick"></p>
-            <h1>COMPUTERS CHOICE:</h1>
-            <p id="computer-output"></p>
-            <h1 id="win-lose"></h1>
+        <div id="choices">
+            <div onclick="rock(); ala();" id="rock"></div>
+            <div onclick="paper()" id="paper"></div>
+            <div onclick="scissors()" id="scissors"></div>
+        </div>
+        <div id="container">
+            <div id="player-choice">
+                <h1>YOUR CHOICE:</h1>
+                <p id="player-pick"></p>
+            </div>
+            <div id="computer-choice">
+                <h1>COMPUTERS CHOICE:</h1>
+                <p id="computer-output"></p>
+            </div>
+            <div id="win-lose">
+                <h1>OUTCOME:</h1>
+                <p id="output"></p>
+            </div>
         </div>
     </body>
 </html>

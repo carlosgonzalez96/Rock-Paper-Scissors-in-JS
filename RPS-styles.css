@@ -1,0 +1,104 @@
+*{  
+    margin: 0px;
+    padding: 0px;
+}
+#choices {
+    display: block;
+    width: 629px;
+    height: 380px;
+    margin: 0px auto;
+}
+#rock{
+    display: block;
+    width: 201px;
+    height: 380px;
+    float: left;
+    margin-right: 10px;
+    background: url(rock.jpg);
+    cursor: pointer;
+}
+#rock:hover{
+    border: 2px solid #262626;
+}
+#paper{
+    display: block;
+    width: 201px;
+    height: 380px;
+    float: left;
+    margin-right: 10px;
+    background: url(paper.jpg);
+    cursor: pointer;
+
+}
+#paper:hover{
+    border: 2px solid #262626;
+}
+#scissors{
+    display: block;
+    width: 201px;
+    height: 380px;
+    float: left;
+    background: url(scissors.jpg);
+    cursor: pointer;
+}
+#scissors:hover{
+    border: 2px solid #262626;
+}
+
+#container{
+    margin-top:30px;
+}
+
+#player-choice{
+    display: block;
+    float: left;
+    width: 500px;
+    height: 80px;
+    text-align: center;
+}
+#player-pick{
+    font-size: 40px;
+    
+}
+#computer-choice {
+    width: 500px;
+    height: 80px;
+    float: left;
+    text-align: center;
+    
+}
+#computer-output{
+    font-size: 40px;
+}
+#win-lose {
+    width: 500px;
+    height: 80px;
+    float: left;
+    text-align: center;
+    
+}
+#output{
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
